@@ -1,0 +1,40 @@
+* {
+    background: grey;
+    box-sizing: border-box;
+}
+
+.main {
+    
+}
+
+.content {
+    display: flex;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.icon, .input, input {
+    background: white;
+}
+
+.icon {
+    padding: 10px 15px;
+    color: black;
+    line-height: 16px;
+}
+
+.icon i {
+    background: white;
+    cursor: pointer;
+}
+
+.input {
+    padding: 8px 0px 8px 4px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+}
